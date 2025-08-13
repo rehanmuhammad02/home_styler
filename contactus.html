@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Styler</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="contactus.css">
+  <link rel="icon" href="/home interior logo.png">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container position-relative">
+    <a class="navbar-brand d-flex flex-column align-items-center gap-2" href="products.html" data-aos="zoom-in">
+      <div class="logo-circle">
+        <img src="/home interior logo.png" alt="Home Styler Logo">
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center text-center">
+        <li class="nav-item"><a class="nav-link" href="index.html" data-aos="zoom-in">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about-us.html" data-aos="zoom-in">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contactus.html" data-aos="zoom-in">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html" data-aos="zoom-in">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="feedback.html" data-aos="zoom-in">Feedback</a></li>
+        <li class="nav-item"><a class="nav-link" href="sitemap.html" data-aos="zoom-in">Sitemap</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+<!-- //banner -->
+ <section class="hero-banner">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 data-aos="fade-left">Make your home truly yours</h1>
+      <p  data-aos="fade-right">Minimal designs with maximum impact</p>
+      <a href="products.html" class="shop-btn" data-aos="zoom-in">Explore More</a>
+    </div>
+  </section>
+  <!-- form section -->
+    <div class="container py-5">
+  <form class="mx-auto bg-dark p-4 rounded shadow" style="max-width: 600px;" action="#" method="POST">
+    <h2 data-aos="zoom-in">Contact Us</h2>
+    <div class="mb-3">
+      <input type="text" class="form-control" name="name" placeholder="Your Full Name" required>
+    </div>
+    <div class="mb-3">
+      <input type="email" class="form-control" name="email" placeholder="Your Email Address" required>
+    </div>
+    <div class="mb-3">
+      <input type="tel" class="form-control" name="phone" placeholder="Your Phone Number" pattern="[0-9]{10,15}" title="Enter a valid phone number">
+    </div>
+    <div class="mb-3">
+      <input type="text" class="form-control" name="address" placeholder="Your Address">
+    </div>
+    <div class="mb-3">
+      <select class="form-select" name="service" required>
+        <option value="" disabled selected>Select Service</option>
+        <option value="consultation">Interior Consultation</option>
+        <option value="furniture">Custom Furniture</option>
+        <option value="decor">Home Decor</option>
+        <option value="renovation">Renovation Services</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <select class="form-select" name="price" required>
+        <option value="" disabled selected>Select Price Range</option>
+        <option value="1000-5000">₨1000 - ₨5000</option>
+        <option value="5001-10000">₨5001 - ₨10000</option>
+        <option value="10001-15000">₨10001 - ₨15000</option>
+        <option value="15001-20000">₨15001 - ₨20000</option>
+        <option value="20001+">₨20001+</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" name="message" rows="5" placeholder="Write your message here..."></textarea>
+    </div>
+    <div class="d-grid">
+      <button type="submit" class="btn btn-custom btn-lg" data-aos="zoom-in">Send Message</button>
+    </div>
+  </form>
+</div>
+<!-- location -->
+<div class="location-section">
+  <h3 data-aos="zoom-in">Location: Manzoor Colony</h3>
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13604.135223098128!2d67.024021!3d24.872232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f1aabc12345%3A0xabcdef1234567890!2sManzoor%20Colony!5e0!3m2!1sen!2s!4v1691830000000" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</div>
+<!-- working hours -->
+<div class="working-hours-section">
+  <div class="container">
+    <h2 data-aos="zoom-in">Working Hours</h2>
+    <div class="row align-items-center">
+      <!-- Left Image -->
+      <div class="col-md-6">
+        <img src="/working hours.jpg" alt="Coffee Shop" class="working-hours-img" data-aos="zoom-in">
+      </div>
+      <!-- Right Working Hours -->
+      <div class="col-md-6">
+        <ul class="hours-list">
+          <li data-aos="zoom-in"><i class="fa-solid fa-calendar-days"></i> Monday: 9:00 AM - 6:00 PM</li>
+          <li data-aos="zoom-in"><i class="fa-solid fa-calendar-days"></i> Tuesday: 9:00 AM - 6:00 PM</li>
+          <li data-aos="zoom-in"><i class="fa-solid fa-calendar-days"></i> Wednesday: 9:00 AM - 6:00 PM</li>
+          <li data-aos="zoom-in"><i class="fa-solid fa-calendar-days"></i> Thursday: 9:00 AM - 6:00 PM</li>
+          <li data-aos="zoom-in"><i class="fa-solid fa-calendar-days"></i> Friday: 9:00 AM - 6:00 PM</li>
+          <li data-aos="zoom-in"><i class="fa-solid fa-calendar-days"></i> Saturday: 10:00 AM - 4:00 PM</li>
+          <li data-aos="zoom-in"><i class="fa-solid fa-calendar-days"></i> Sunday: Closed</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Customer Support Section -->
+<section class="support-section">
+  <div class="container">
+    <h2 class="text-center mb-5 text-uppercase fw-bold" data-aos="zoom-in">Customer Support</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="support-card">
+          <i class="fas fa-phone-volume"></i>
+          <h5 data-aos="zoom-in">Call Us</h5>
+          <p data-aos="zoom-in">+92 300 1234567</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="support-card">
+          <i class="fas fa-envelope-open-text"></i>
+          <h5 data-aos="zoom-in">Email Us</h5>
+          <p data-aos="zoom-in">support@coffeehouse.com</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="support-card">
+          <i class="fas fa-comments"></i>
+          <h5 data-aos="zoom-in">Live Chat</h5>
+          <p data-aos="zoom-in">Chat with our team 24/7</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- footer -->
+<footer class="bg-black text-white pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 mb-4 text-center text-md-start">
+        <h5 class="text-uppercase mb-3 text-white" data-aos="zoom-in">Follow Us</h5>
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-4"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-4"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-linkedin fs-4"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-youtube fs-4"></i></a>
+      </div>
+      <div class="col-md-3 mb-4">
+        <h5 class="text-uppercase text-white" data-aos="zoom-in">Home Styler</h5>
+        <p data-aos="zoom-in">Home Styler modern aur elegant furniture solutions provide karta hai jo aapke ghar ke har corner ko stylish banate hain. Living Room, Bedroom, Kitchen ya Bathroom – hum premium quality designs aapke budget me deliver karte hain.</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <h5 class="text-uppercase text-white" data-aos="zoom-in">Design Style's</h5>
+        <p><a href="contactus.html" class="text-white text-decoration-none" data-aos="zoom-in">Living Room</a></p>
+        <p><a href="contactus.html" class="text-white text-decoration-none" data-aos="zoom-in">Kitchen</a></p>
+        <p><a href="contactus.html" class="text-white text-decoration-none" data-aos="zoom-in">Bedroom</a></p>
+        <p><a href="contactus.html" class="text-white text-decoration-none" data-aos="zoom-in">Bathroom</a></p>
+        <p><a href="contactus.html" class="text-white text-decoration-none" data-aos="zoom-in">Contemparary Style's</a></p>
+        <p><a href="contactus.html" class="text-white text-decoration-none" data-aos="zoom-in">Elegant look Style's</a></p>
+      </div>
+<div class="col-md-3 mb-4">
+  <h5 class="text-uppercase text-white" data-aos="zoom-in">Newsletter</h5>
+  <p data-aos="zoom-in">Subscribe to get special offers, free giveaways, and new arrivals.</p>
+  <form>
+    <div class="input-group">
+      <input type="email" class="form-control" placeholder="Your email" required data-aos="zoom-in">
+      <button class="btn btn-danger" type="submit" data-aos="zoom-in"><i class="bi bi-envelope-fill" data-aos="zoom-in"></i></button>
+    </div>
+  </form>
+</div>
+    <hr class="border-secondary">
+    <div class="text-center">
+      <p class="mb-0">© 2025 <span class="text-white">Home Styler</span>. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+<a href="#" id="backToTopBtn" class="btn btn-dark rounded-circle"
+   style="position: fixed; bottom: 80px; right: 20px; z-index: 9999; font-size: 28px; display: none;">
+  <i class="bi bi-arrow-up-circle text-white"></i>
+</a>
+<a href="https://wa.me/923001234567" target="_blank" class="btn btn-success rounded-circle"
+   style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; font-size: 28px;">
+  <i class="bi bi-whatsapp text-white"></i>
+</a>
+<script>
+  const backToTopBtn = document.getElementById("backToTopBtn");
+  window.addEventListener("scroll", () => {
+    backToTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+  });
+  backToTopBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
+</body>
+</html>
