@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Styler</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="feedback.css">
+  <link rel="icon" href="home interior logo.png">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container position-relative">
+    <a class="navbar-brand d-flex flex-column align-items-center gap-2" href="index.html" data-aos="zoom-in">
+      <div class="logo-circle">
+        <img src="home interior logo.png" alt="Home Styler Logo">
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center text-center">
+        <li class="nav-item"><a class="nav-link" href="index.html" data-aos="zoom-in">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about-us.html" data-aos="zoom-in">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contactus.html" data-aos="zoom-in">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html" data-aos="zoom-in">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="feedback.html" data-aos="zoom-in">Feedback</a></li>
+        <li class="nav-item"><a class="nav-link" href="sitemap.html" data-aos="zoom-in">Sitemap</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+<!-- //banner -->
+ <section class="hero-banner">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 data-aos="fade-left">Your Satisfaction, Our Priority</h1>
+      <p  data-aos="fade-right">Your feedback and queries matter most to our team</p>
+      <a href="products.html" class="shop-btn" data-aos="zoom-in">Explore More</a>
+    </div>
+  </section>
+  <!-- Feedback Form -->
+<div class="container py-5">
+  <h2 class="text-center mb-4">Feedback Form</h2>
+  <form class="mx-auto p-4 rounded shadow" style="max-width: 700px;" action="#" method="POST" enctype="multipart/form-data">
+    <div class="mb-3">
+      <input type="text" class="form-control" name="name" placeholder="Your Full Name" required>
+    </div>
+    <div class="mb-3">
+      <input type="email" class="form-control" name="email" placeholder="Your Email Address" required>
+    </div>
+    <div class="mb-3">
+      <input type="tel" class="form-control" name="phone" placeholder="Your Contact Number" required>
+    </div>
+    <div class="mb-3">
+      <select class="form-select" name="service" required>
+        <option value="" disabled selected>Select Service Type</option>
+        <option value="interior">Home Interior</option>
+        <option value="furniture">Custom Furniture</option>
+        <option value="painting">Wall Painting</option>
+        <option value="lighting">Lighting Design</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" name="message" rows="5" placeholder="Your Feedback..." required></textarea>
+    </div>
+    <div class="d-grid">
+      <button type="submit" class="btn btn-custom btn-lg">Submit Feedback</button>
+    </div>
+  </form>
+</div>
+<!-- Services Section -->
+<div class="container py-3">
+  <h3 class="text-center mb-5">Our Interior Services</h3>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="service-card p-4 text-center rounded shadow">
+        <i class="fas fa-couch"></i>
+        <h5 class="mb-3">Custom Furniture</h5>
+        <p>High-quality, tailor-made furniture to perfectly match your interior style.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="service-card p-4 text-center rounded shadow">
+        <i class="fas fa-paint-roller"></i>
+        <h5 class="mb-3">Wall Painting</h5>
+        <p>Creative and modern painting solutions that bring your walls to life.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="service-card p-4 text-center rounded shadow">
+        <i class="fas fa-lightbulb"></i>
+        <h5 class="mb-3">Lighting Design</h5>
+        <p>Elegant and functional lighting designs for every corner of your home.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- feedback -->
+<div class="container py-5">
+  <h2 class="text-center mb-5" style="color:#b30000;">Customer Feedback</h2>
+  <div class="row g-4">
+    
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="p-4 feedback-card h-100">
+        <h5 class="card-title">John Smith</h5>
+        <div class="star-rating mb-2">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p class="card-text">The service was excellent, the team was professional, and delivery was on time. Highly recommended!</p>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="p-4 feedback-card h-100">
+        <h5 class="card-title">Emily Johnson</h5>
+        <div class="star-rating mb-2">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="card-text">The interior design was exactly as discussed. The colors and material quality were top-notch!</p>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="p-4 feedback-card h-100">
+        <h5 class="card-title">Michael Lee</h5>
+        <div class="star-rating mb-2">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p class="card-text">There was a slight delay in delivery, but the quality was amazing. Will definitely order again!</p>
+      </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="col-md-4">
+      <div class="p-4 feedback-card h-100">
+        <h5 class="card-title">Sophia Brown</h5>
+        <div class="star-rating mb-2">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p class="card-text">Loved the attention to detail in every corner of my living room setup. Great work!</p>
+      </div>
+    </div>
+    <!-- Card 5 -->
+    <div class="col-md-4">
+      <div class="p-4 feedback-card h-100">
+        <h5 class="card-title">David Wilson</h5>
+        <div class="star-rating mb-2">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p class="card-text">Service was okay, but communication could be improved. Overall satisfied with the final results.</p>
+      </div>
+    </div>
+    <!-- Card 6 -->
+    <div class="col-md-4">
+      <div class="p-4 feedback-card h-100">
+        <h5 class="card-title">Olivia Martinez</h5>
+        <div class="star-rating mb-2">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="card-text">Fantastic service from start to finish. I’m thrilled with my new home interiors!</p>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- footer -->
+<footer class="bg-black text-white pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 mb-4 text-center text-md-start">
+        <h5 class="text-uppercase mb-3 text-white" data-aos="zoom-in">Follow Us</h5>
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-4"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-4"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-linkedin fs-4"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-youtube fs-4"></i></a>
+      </div>
+      <div class="col-md-3 mb-4">
+        <h5 class="text-uppercase text-white" data-aos="zoom-in">Home Styler</h5>
+        <p data-aos="zoom-in">Home Styler modern aur elegant furniture solutions provide karta hai jo aapke ghar ke har corner ko stylish banate hain. Living Room, Bedroom, Kitchen ya Bathroom – hum premium quality designs aapke budget me deliver karte hain.</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <h5 class="text-uppercase text-white" data-aos="zoom-in">Design Style's</h5>
+        <p><a href="contactus.html" class="text-white text-decoration-none" data-aos="zoom-in">Living Room</a></p>
+        <p><a href="contactus.html" class="text-white text-decoration-none" data-aos="zoom-in">Kitchen</a></p>
+        <p><a href="contactus.html" class="text-white text-decoration-none" data-aos="zoom-in">Bedroom</a></p>
+        <p><a href="contactus.html" class="text-white text-decoration-none" data-aos="zoom-in">Bathroom</a></p>
+        <p><a href="contactus.html" class="text-white text-decoration-none" data-aos="zoom-in">Contemparary Style's</a></p>
+        <p><a href="contactus.html" class="text-white text-decoration-none" data-aos="zoom-in">Elegant look Style's</a></p>
+      </div>
+<div class="col-md-3 mb-4">
+  <h5 class="text-uppercase text-white" data-aos="zoom-in">Newsletter</h5>
+  <p data-aos="zoom-in">Subscribe to get special offers, free giveaways, and new arrivals.</p>
+  <form>
+    <div class="input-group">
+      <input type="email" class="form-control" placeholder="Your email" required data-aos="zoom-in">
+      <button class="btn btn-danger" type="submit" data-aos="zoom-in"><i class="bi bi-envelope-fill" data-aos="zoom-in"></i></button>
+    </div>
+  </form>
+</div>
+    <hr class="border-secondary">
+    <div class="text-center">
+      <p class="mb-0">© 2025 <span class="text-white">Home Styler</span>. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+<a href="#" id="backToTopBtn" class="btn btn-dark rounded-circle"
+   style="position: fixed; bottom: 80px; right: 20px; z-index: 9999; font-size: 28px; display: none;">
+  <i class="bi bi-arrow-up-circle text-white"></i>
+</a>
+<a href="https://wa.me/923001234567" target="_blank" class="btn btn-success rounded-circle"
+   style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; font-size: 28px;">
+  <i class="bi bi-whatsapp text-white"></i>
+</a>
+<script>
+  const backToTopBtn = document.getElementById("backToTopBtn");
+  window.addEventListener("scroll", () => {
+    backToTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+  });
+  backToTopBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
+</body>
+</html>
